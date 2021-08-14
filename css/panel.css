@@ -1,0 +1,206 @@
+#menu{
+	background-color: #3d404a;
+	width: 180px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	border-right:2px solid #d4af37;
+	overflow-x: hidden;
+	padding-top: 18px;
+}
+#menu a{
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	padding: 6px 8px 6px 16px;
+}
+#menu a:hover{
+	border-left:2px solid #d4af37; 
+	color: #d4af37;
+}
+#menu hr{
+	width:80%;
+}
+.message{
+	text-align:center;
+	padding:8px;
+	border: 1px solid #3d404a;
+    background-color: #d4af37c9;
+    border-radius: 6px;
+	margin:8px;
+}
+.tag-title{
+	padding: 8px 0 8px 16px;
+}
+.tag-title span{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #ffffff;
+}
+.link{
+	color:#0079b9;
+	text-decoration:none;
+}
+.link:hover{
+	color:#39a0d6;
+}
+#user-info{
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	padding: 6px 8px 6px 16px;
+}
+#user-info div{
+	padding: 6px 0;
+}
+#container{
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	margin-left:180px;
+}
+#search-bar{
+	display:flex;
+	padding:8px;
+}
+#search-bar input{
+	padding:8px;
+	width:15%;
+}
+#cfd-section{
+	padding-top:10px;
+	margin:8px;
+}
+#cfd-table{
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#cfd-table th{
+	text-align: left;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	color: #fff;
+	background-color: #d4af37;
+}
+#cfd-table td, #cfd-table th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+#cfd-table a{
+	text-decoration:none;
+	border:1px solid #000;
+	border-radius:4px;
+	color:#000;
+	padding:6px;
+}
+.admin-table{
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.admin-table th{
+	text-align: left;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	color: #fff;
+	background-color: #d4af37;
+}
+.admin-table td, .admin-table th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+.admin-table a{
+	text-decoration:none;
+	border:1px solid #000;
+	border-radius:4px;
+	color:#000;
+	padding:6px;
+}
+.userPanelTitle{
+	text-align:center;
+	text-transform:uppercase;
+}
+#depositCreditsForm{
+	text-align:center;
+}
+#depositCreditsForm span{
+	font-size:18px;
+}
+#depositCreditsContainer{
+	width:50%;
+	margin:auto;
+	padding: 16px;
+    border: 2px solid #d4af37;
+    border-radius: 6px;	
+}
+#depositCreditsContainer div{
+	margin-bottom:8px;
+}
+#cardNumber{
+	width: 65%;
+}
+#validThruMonth{
+	width:10%;
+}
+#validThruYear{
+	width:10%;
+}
+#secretCode{
+	width:12%;
+}
+.inputDeposit{
+	text-align:center;
+	font-size:16px;
+	padding:8px;
+}
+#submitDeposit{
+	font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 0;
+    padding: 10px;
+    color: white;
+    background-color: #d4af37;
+    cursor: pointer;
+}
+.btnAdmin{
+	font-family:Arial, sans-serif;
+	font-size:18px;
+	text-decoration: none;
+	border-radius: 6px;
+	border:0;
+    padding: 10px;
+    color: white;
+    background-color: #d4af37;
+	cursor:pointer;
+}
+#adminFooter{
+   width: 100%;
+   height:64px;
+   left: 0;
+   bottom: 0;
+   position: fixed;
+   background-color: #3d404a;
+   border-top: 2px solid #d4af37;
+   color: white;
+   display:flex;
+   margin-left:180px;
+}
+.footerContainer{
+	width:30%;
+	text-align:center;
+	border-right:2px solid #d4af37;
+	padding-top:12px;
+	font-size:18px;
+}
+.section{
+	padding-top:10px;
+	margin:8px;
+}
+.section h3{
+	font-family:Arial, sans-serif;
+}
