@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Financial Trading">
+		<meta name="keywords" content="stocks, markets, trading">
+    	<link rel=icon href = "./images/favicon.png" sizes="32x32" type="image/png">   		
+		<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="./css/print.css" type="text/css" media="print">
+		<script type="text/javascript">
+			function box(){
+				/*
+				if(confirm("Do you want to continue?")){
+					alert("Yes.");
+				}
+				else{
+					alert("No.");
+				}
+				*/
+				/*
+				var name = prompt("Insert your name:","");
+				if(name!="" && name!=null){
+					alert(name);
+				}
+				else{
+					alert("You didn't.");
+				}
+				*/
+			}
+		</script>
+    	<title>Login</title>
+	</head>
+	<body onload="box()">
+		<main>
+			<section>
+				<ul id="menu">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./trading.html">Trading</a></li>
+					<li><a href="./markets.html">Markets</a></li>
+					<li><a href="./faq.html">FAQ</a></li>
+					<li class="active"><a href="./login.html">Login</a></li>
+					<li><a href="./signup.html">Sign Up</a></li>
+				</ul>
+			</section>
+			<section id="login-container">
+				<div>
+					<header>
+						<h3>Login</h3>
+					</header>
+					<form method="post" action="">
+						<p><input class="input" type="text" placeholder="Usename" required /></p>
+						<p><input class="input" type="password" placeholder="Password" required /></p>
+						<p><input class="submit" type="submit" value="Login" /></p>
+					</form>
+					<p>Don't have an account? <a class="link" href="./signup.html">Sign Up</a></p>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
