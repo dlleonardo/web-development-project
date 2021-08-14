@@ -1,0 +1,254 @@
+body{
+	font-family:sans-serif;
+}
+#menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3d404a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#menu li{
+  float: left;
+  border-right: 1px solid #bbb;
+  width:16%;
+}
+#menu li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+}
+#menu li a:hover{
+  background-color: #d4af37;
+}
+.active{
+  background-color: #d4af37;	
+}
+#menu li:last-child{
+  border-right: none;
+}
+#menu li:first-child{
+	margin-left:20px;
+}
+.section-padding{
+	padding:40px;
+	text-align:center;
+}
+#photo{
+    margin-top: 40px;
+    position: relative;
+    vertical-align: top;
+}
+#photo img{
+    width: 100%;
+}
+#photo figure{
+	margin:0;
+}
+#photo figcaption{
+    position:relative;
+    top:-66px;
+    left:0;
+    color:#f1f1f1;
+    width:100%;
+    padding-top:18px;
+    padding-bottom:18px;
+    font-size:22px;
+    text-align:center;
+    background:rgba(0, 0, 0, 0.3);
+}
+#name{
+	text-align: center;
+	background-color: #d4af37;
+    color: white;
+	padding-top: 60px;
+    padding-bottom: 30px;
+}
+#name h1{
+	font-size:2em;
+}
+#home-trading{
+	max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home-trading-left{
+	width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;	
+}
+#home-trading-right{
+    width: 40%;
+	display: inline-block;
+    vertical-align: top;
+    text-align: center;
+	margin-left:58px;
+}
+#home-trading-photo{
+	width:100%;
+	border-radius:14px;
+}
+#home-trading-right p{
+	font-size:28px;
+}
+#home-bottom h3 {
+	text-align:center;
+	font-size:26px;
+}
+#home-bottom p{
+	font-size:18px;
+	text-align:center;
+}
+#introduction, #trading, #faq, #markets, #home-bottom{
+	padding:25px;
+}
+#markets-tables, #markets-description{
+	padding:0 25px 25px 25px;
+	text-align:center;
+}
+#markets-tables table{
+	margin:auto;
+	border-collapse:collapse;
+	table-layout:fixed;
+	margin-top:10px;
+}
+#markets-tables table th{
+	background-color:#d4af37;
+	color:white;
+	font-size:20px;
+	padding: 10px;
+}
+#markets-tables table td{
+	padding: 5px;
+}
+#markets-tables table, td, th{
+	border: 1px solid #ddd;
+}
+#markets-tables table tr:nth-child(even){
+	background-color: #eaeaea;
+}
+#markets-end p{
+	font-size:18px;
+}
+#introduction-description p, #trading-description p, #markets-description p{
+	text-align:center;
+	font-size:18px;
+}
+#trading-description h3, #introduction-description h3, #markets-description h3{
+	text-align:center;
+	font-size:28px;
+	color:#d4af37;
+	margin-top: 5px;
+}
+#ranking-system{
+	padding: 35px 15px 15px 15px;
+}
+.rank-row{
+	clear:both;
+	margin-bottom:30px;
+	border-radius: 12px;
+	background-color:#ececec;
+}
+.left{
+	width: 18%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    color: black;	
+}
+.right{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 150px;
+    color: black;	
+}
+#faq-title{
+	padding-bottom:10px;
+}
+#faq-title header h3{
+	color:#d4af37;
+	font-size:32px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+#faq-title header h3{
+	text-align:center;
+}
+#faq-title p{
+	font-size:22px;
+	margin-top:5px;
+	text-align:center;
+}
+#faq-description p{
+	color:#565656;
+	font-size:20px;
+	text-align:left;
+}
+#trade-now{
+	padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;	
+}
+.button{
+	font-size:20px;
+	text-decoration: none;
+	border-radius: 6px;
+    padding: 10px;
+    color: white;
+    background-color: #d4af37;
+}
+.faq-div header h4{
+	font-size:20px;
+	margin-bottom:5px;
+}
+.faq-div p{
+	margin-top:5px;
+}
+#login-container, #signup-container{
+	text-align:center;
+	padding-top:80px;
+}
+#login-container div, #signup-container div{
+	width: 40%;
+    margin: auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+	background-color: #e6e6e6;
+}
+.input{
+	font-size:16px;
+	padding:8px;
+	width:65%;
+}
+.submit{
+	font-size:18px;
+	text-decoration: none;
+	border-radius: 6px;
+	border:0;
+    padding: 10px;
+    color: white;
+    background-color: #d4af37;
+	cursor:pointer;
+}
+.link{
+	color:#0079b9;
+	text-decoration:none;
+}
+.link:hover{
+	color:#39a0d6;
+}
+footer{
+	text-align:center;
+	background-color: #d4af37;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+}
